@@ -33,7 +33,6 @@ img.mdl-layout-title {
 }
 .page-content {
     padding: 5vw;
-    padding-bottom: 200vh!important;
 }
 .midnightHeader.default {
     background-color: transparent!important;
@@ -41,6 +40,13 @@ img.mdl-layout-title {
   }
   .midnightHeader.black {
     background: #000!important;
+    color: #ddd!important;
+  }
+  .midnightHeader.white {
+    background: #ddd!important;
+    color: #000!important;
+  }
+  .midnightHeader.white .mdl-navigation__link {
     color: #000!important;
   }
 #navbar {
@@ -72,3 +78,55 @@ img.mdl-layout-title {
     transition-duration: .2s;
     transition-timing-function: cubic-bezier(.4,0,.2,1);
     transition-property: max-height,box-shadow;
+}
+.slide {
+    position: relative;
+}
+.slide-box {
+    position: absolute;
+    top: 140px;
+    right: 60px;
+    max-width: 620px;
+    width: 100%;
+    color: #ddd;
+}
+@media screen and (max-width: 800px) {
+    .slide-box {
+        right: 0px;
+    }
+    .slide-box-container {
+        padding: 10px;
+    }
+}
+.header-CTA {
+    width: 100%;
+    background-color: #000!important;
+    display: block;
+    margin: 5vh auto;
+}
+  .basic-price > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('/assets/imgs/card-one.png') center / cover;
+  }
+  .medium-price > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('/assets/imgs/card-two.png') center / cover;
+  }
+  .higher-price > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('/assets/imgs/card-three.png') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  .pricing-list-item {
+    width: 100%;
+  }
+  .page-content.plans {
+      background-image: url(/assets/imgs/bg-price.png);
+      background-size: cover;
+      background-position: center center;
+  }

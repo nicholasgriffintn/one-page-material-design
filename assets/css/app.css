@@ -1,0 +1,37 @@
+
+.page-header-transparent {
+    background: transparent;
+}
+img.mdl-layout-title {
+    max-width: 150px!important;
+}
+.demo-layout-transparent .mdl-layout__header, .demo-layout-transparent .mdl-layout__drawer-button {
+    color: white;
+}
+.mdl-layout__content {
+    background-color: #fff;
+}
+.page-header-transparent .mdl-layout__header {
+    background-color: transparent!important;
+    color: #fff!important;
+    box-shadow: none!important;
+    position: fixed
+}
+.page-header-transparent .mdl-layout__drawer-button {
+    color: #fff;
+}
+.page-header-transparent .mdl-layout__drawer-button i {
+    padding-top:12px;
+}
+.page-header-transparent .background-slider-container {
+    height: 70vh;
+    width: 100vw;
+    background: #333;
+}
+.background-slider-wrapper, .slider, .slide {
+    width: 100%;
+    height: 100%;
+}
+.page-content {
+    padding: 5vw;
+}
